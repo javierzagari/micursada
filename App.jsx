@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function MiCursada() {
+export default function App() {
   const [materias, setMaterias] = useState([]);
   const [nombre, setNombre] = useState("");
   const [fecha, setFecha] = useState("");
